@@ -4,6 +4,8 @@ Hangman game web app built with React. Built upon starter code by <a href="https
 
 ## What was added to starter code:
 
+- Mapped keys to buttons
+
 ## How to Play
 
 Hangman is a word guessing game. You will be provided with a set number of spaces and must guess a letter for each space. The goal is to guess the full word. Selection options will be presented to you in form of buttons. Incorrect selections will cause a part of the hanging man to be drawn. If the full hanging man is drawn, you lose. 
