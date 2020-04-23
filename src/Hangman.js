@@ -21,7 +21,13 @@ class Hangman extends Component {
     this.state = { nWrong: 0, guessed: new Set(), answer: randomWord() };
     this.handleGuess = this.handleGuess.bind(this);
   }
-
+  reset = (e) => {
+      this.setState({
+        nWrong: 0,
+        guessed: new Set(),
+        answer: randomWord()
+      });
+  } 
   /** guessedWord: show current-state of word:
     if guessed letters are {a,p,e}, show "app_e" for "apple"
   */
@@ -73,6 +79,7 @@ class Hangman extends Component {
           {!gameStatus ? this.generateButtons() : 
           `YOU LOSE. Correct answer was: ${this.state.answer}`}
         </p>
+        <button onClick={this.reset}>Reset</button>
       </div>
     );
   }
