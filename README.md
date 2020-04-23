@@ -5,6 +5,11 @@ Hangman game web app built with React. Built upon starter code by <a href="https
 ## What was added to starter code:
 
 - Mapped keys to buttons
+- Tracking for incorrect guesses
+- Win/Lose conditionals
+- Target word randomization
+- Reset button
+- Minor styling tweaks
 
 ## How to Play
 
