@@ -63,14 +63,22 @@ class Hangman extends Component {
     ));
   }
 
-  /** render: render game */
-  render() {
+  /** Check Win/Lose status */
+  checkStatus() {
     const isLoser = this.state.nWrong >= this.props.maxWrong;
     const altText = `${this.state.nWrong}/${this.state.maxWrong} guesses`;
     const isWinner = this.guessedWord().join("") === this.state.answer;
     let gameStatus = this.generateButtons();
-      if(isWinner) gameStatus = 'You Win!';
-      if(isLoser) gameStatus = 'You Lose!';
+    if (isWinner)
+      gameStatus = 'You Win!';
+    if (isLoser)
+      gameStatus = 'You Lose!';
+    return { altText, isLoser, gameStatus };
+  }
+
+  /** render: render game */
+  render() {
+    let { altText, isLoser, gameStatus } = this.checkStatus();
     return (
       <div className='Hangman'>
         <h1>Hangman</h1>
@@ -86,6 +94,8 @@ class Hangman extends Component {
       </div>
     );
   }
+
+
 }
 
 export default Hangman;
