@@ -2,6 +2,8 @@
 
 Hangman game web app built with React. Built upon starter code by <a href="https://www.udemy.com/course/modern-react-bootcamp/">Colt Steele</a>.
 
+<img src=https://github.com/mpdevelops/misc/blob/master/Untitled.png?raw=true alt="Hangman demo"></img>
+
 ## What was added to starter code:
 
 - Mapped keys to buttons
@@ -27,3 +29,5 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Find Code Quickly
+
+<a href="https://github.com/mpdevelops/react-hangman/tree/master/src">react-hangman/src/</a>
