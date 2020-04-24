@@ -2,7 +2,7 @@
 
 Hangman game web app built with React. Built upon starter code by <a href="https://www.udemy.com/course/modern-react-bootcamp/">Colt Steele</a>.
 
-<img src=https://github.com/mpdevelops/misc/blob/master/Untitled.png?raw=true alt="Hangman demo"></img>
+<img src="https://github.com/mpdevelops/misc/blob/master/Untitled.png?raw=true" alt="Hangman demo" height="550px" width="250px"></img>
 
 ## What was added to starter code:
 
