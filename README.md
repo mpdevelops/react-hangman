@@ -14,11 +14,11 @@ Clone/Download the repo.
 
 In the project directory, you can run:
 
+### `npm install`
+
+Downloads all necessary dependencies.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Find Code Quickly
-
-<a href="https://github.com/mpdevelops/react-hangman/tree/master/src">react-hangman/src/</a>
